@@ -1,5 +1,7 @@
 package edu.api.service.impl;
 
+import java.util.NoSuchElementException;
+
 import org.springframework.stereotype.Service;
 
 import edu.api.model.User;
@@ -18,14 +20,15 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User create(User userToCreate) {
-        // TODO Auto-generated method stub
-        return null;
+        if(userToCreate.getId() != null && userRepository.existsById(userToCreate.getId())){
+            throw new IllegalArgumentException("This User ID already exist.");
+        };
+        return userRepository.save(userToCreate);
     }
 
     @Override
     public User findById(Long id) {
-        // TODO Auto-generated method stub
-        return null;
+        return userRepository.findById(id).orElseThrow(NoSuchElementException::new);
     }
     
 }
