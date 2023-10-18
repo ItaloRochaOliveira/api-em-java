@@ -1,4 +1,4 @@
-package repository;
+package edu.api.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
