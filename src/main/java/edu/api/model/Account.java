@@ -16,7 +16,7 @@ public class Account {
 
     private String agency;
 
-    //escala são os inteiros e o precision os decimais.
+    //precision são os inteiros e o escala os decimais.
     @Column(precision = 13, scale = 2)
     private BigDecimal balance;
 
