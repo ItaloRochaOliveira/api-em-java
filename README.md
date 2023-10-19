@@ -70,7 +70,7 @@ classDiagram
 ![Springboot](https://img.shields.io/badge/springboot-white?style=for-the-badge&logo=Springboot&logoColor=green)
 ![Gradle](https://img.shields.io/badge/Gradle-white?style=for-the-badge&logo=Gradle&logoColor=000080)
 ![Swagger](https://img.shields.io/badge/swagger-green?style=for-the-badge&logo=Swagger&logoColor=white)
-![SpringSecurity](https://img.shields.io/badge/swagger-green?style=for-the-badge&logo=SpringSecurity&logoColor=white)
+![SpringSecurity](https://img.shields.io/badge/SpringSecurity-green?style=for-the-badge&logo=SpringSecurity&logoColor=white)
 ![PostgresSQL](https://img.shields.io/badge/swagger-blue?style=for-the-badge&logo=Postgresql&logoColor=white)
 ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 
