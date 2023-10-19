@@ -27,6 +27,13 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
+//Configurando o caminho de quem tá rodando a aplicação para o railway reconhecer.
+tasks.jar {
+	manifest {
+		attributes["Main-Class"] = "edu.api.ApiEmJavaApplication"
+	}
+}
+
 tasks.named('test') {
 	useJUnitPlatform()
 }
