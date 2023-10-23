@@ -12,6 +12,10 @@ Os conteúdos principais a serem explorados são:
 - Springboot Framework (spring Data JPA, spring Security, outras bibliotecas);
 - API Rest;
 
+## 🔗Link de Acesso
+
+- Documentação: Em Processo...
+
 ## Diagrama de Classes:
 
 ```mermaid
@@ -56,8 +60,10 @@ classDiagram
 
 ```bash
 . Crud de clintes:
-  - CREATE: Criar um domínio bancário informando seu nome, conta, cartão, features e novidades.
+  - POST: Criar um domínio bancário informando seu nome, conta, cartão, features e novidades.
   - GET: Podendo acessar a contas existentes via email.
+  - PUT: Atualizar os valores por meio de um ID existente. -> EM PROCESSO...
+  - DELETE: Deletar contas. -> EM PROCESSO...
 ```
 
 ## 💡Programas utilizados:
