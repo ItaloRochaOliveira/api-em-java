@@ -14,7 +14,8 @@ Os conteúdos principais a serem explorados são:
 
 ## 🔗Link de Acesso
 
-- Documentação: Em Processo...
+- Documentação: EM PROCESSO...
+- Link da API: EM PROCESSO...
 
 ## Diagrama de Classes:
 
